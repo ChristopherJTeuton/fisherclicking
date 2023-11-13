@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the last value (0.5) for the desired transparency level */
+}
+
+.upgradeButton {
+    margin: 10px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #3e2723; /* Dark brown background color */
+    color: white; /* White text color */
+}
+
+.upgradeButton:hover {
+    background-color: #4e342e; /* Darker brown on hover */
+}
+
+.lockedUpgrade {
+    margin: 10px;
+    padding: 10px;
+    color: #999;
+}
+
+#upgradeDescription {
+    margin-top: 20px;
+}
+
+#mushroomFacts {
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    background-color: #3e2723; /* Dark brown background color */
+    color: white; /* White text color */
+}
+
+#mushroomFacts2 {
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    background-color: #3e2723; /* Dark brown background color */
+    color: white; /* White text color */
+}
